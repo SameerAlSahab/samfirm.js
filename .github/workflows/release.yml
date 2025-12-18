@@ -2,8 +2,10 @@ name: Build samfirm.js
 
 on:
   push:
+    branches:
+      - '**'      
     tags:
-      - 'v*'
+      - '**'      
 
 jobs:
   build:
